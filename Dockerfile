@@ -11,6 +11,7 @@ RUN docker run -it --rm - 8888:8080 tomcat:9.0 \
   --volume $JRE_HOME:/usr \
   --volume $CLASSPATH:/usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat-juli.jar \
   --shm-size 256m
-  #COPY app.py .
+EXPOSE 8888
+#COPY app.py .
 #ENTRYPOINT [ "python" ]
 #CMD ["python", "app.py" ]
