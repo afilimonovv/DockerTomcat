@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\script2\\script2"
+		},
+		{
+			"name": "Dockerfilestart",
+			"path": "..\\..\\Dockerfilestart\\Dockerfilestart"
+		},
+		{
+			"name": "testetc-1",
+			"path": "..\\..\\..\\Documents\\GitLab\\testetc\\testetc-1"
+		},
+		{
+			"name": "DomZad-1",
+			"path": "..\\..\\..\\Documents\\GitHub\\DomZad-1"
+		},
+		{
+			"name": "DockerTomcat",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
