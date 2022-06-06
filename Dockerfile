@@ -1,9 +1,9 @@
-FROM ubuntu:18.04
-RUN apt-get update -y
-RUN apt-get install docker -y
-RUN apt-get install maven -y
-RUN docker pull tomcat
-RUN docker run -it --rm - 8888:8080 tomcat:9.0 \
+#FROM ubuntu:18.04
+apt-get update -y
+apt-get install docker -y
+apt-get install maven -y
+docker pull tomcat
+docker run -it --rm - 8888:8080 tomcat:9.0 \
   --restart always \
   --volume $CATALINA_BASE:/usr/local/tomcat \
   --volume $CATALINA_HOME:/usr/local/tomcat \
